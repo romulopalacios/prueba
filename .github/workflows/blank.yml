@@ -32,5 +32,5 @@ jobs:
       - name: "Mostrar variables de entorno"
         run: |
           echo "Plataforma: ${{env.platform}}"
-          run: echo "Región: ${{env.region}}"
-          run: echo "Cuenta: ${{env.account}}"
+          echo "Región: ${{env.region}}"
+          echo "Cuenta: ${{env.account}}"
